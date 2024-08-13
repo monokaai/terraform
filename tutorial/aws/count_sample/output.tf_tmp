@@ -1,0 +1,4 @@
+output "subnet1_cidr" {
+  description = "values of subnet1 CIDR"
+  value       = aws_subnet.subnet[0].cidr_block
+}
